@@ -1,0 +1,26 @@
+{
+  "id": "88af32a2-02ec-486d-bbba-58757664e117",
+  "timestamp": "8/1/2023 23:56:14",
+  "products": [
+    {
+      "id": "5f8a3149-0117-4ad1-9a85-fb16684ff659",
+      "timestamp": "6/1/2023 09:53:35",
+      "title": "Router wifi",
+      "description": "ZTE 30mts",
+      "code": "111",
+      "price": "4500",
+      "stock": "45",
+      "thumbnail": "https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/router-fill-512.png"
+    },
+    {
+      "id": "3ae6e830-93fc-42dc-ad4d-73b9d629a166",
+      "timestamp": "6/1/2023 09:53:35",
+      "title": "Bicicleta",
+      "description": "Paseo de dama",
+      "code": "234",
+      "price": "6580",
+      "stock": "15",
+      "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/bycicle_cycling_speed_transport_sports-512.png"
+    }
+  ]
+}

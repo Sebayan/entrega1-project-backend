@@ -1,0 +1,82 @@
+[
+  {
+    "id": "86e354af-1a45-483b-8cea-8cbae528f5c6",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Calculadora",
+    "description": "Calculadora a pilas",
+    "code": "334",
+    "price": "345",
+    "stock": "22",
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/business-1221/24/Calculator-512.png"
+  },
+  {
+    "id": "391b796a-6c73-4105-bb85-5170ac2f8277",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "TV 50",
+    "description": "Smart Samsung",
+    "code": "394",
+    "price": "35000",
+    "stock": "12",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_tv_48px-256.png"
+  },
+  {
+    "id": "2f3afceb-7b78-47e8-adfb-fc5922b11656",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Smartphone",
+    "description": "Iphone 11 64gb",
+    "code": "534",
+    "price": "7540",
+    "stock": "45",
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_mobile-512.png"
+  },
+  {
+    "id": "d46b16b9-c6ae-4a64-a2eb-51c3d7b93ce8",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Lavarropa",
+    "description": "Enxuta con secado",
+    "code": "634",
+    "price": "9500",
+    "stock": "24",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-16-512.png"
+  },
+  {
+    "id": "3ae6e830-93fc-42dc-ad4d-73b9d629a166",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Bicicleta",
+    "description": "Paseo de dama",
+    "code": "234",
+    "price": "6580",
+    "stock": "15",
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/bycicle_cycling_speed_transport_sports-512.png"
+  },
+  {
+    "id": "5f8a3149-0117-4ad1-9a85-fb16684ff659",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Router wifi",
+    "description": "ZTE 30mts",
+    "code": "111",
+    "price": "4500",
+    "stock": "45",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/router-fill-512.png"
+  },
+  {
+    "id": "09c401b4-b8ed-4fbf-aa5b-671169574d5e",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Motocicleta",
+    "description": "Yamaha 70cc",
+    "code": "134",
+    "price": "46500",
+    "stock": "5",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/font-awesome-solid/640/motorcycle-512.png"
+  },
+  {
+    "id": "b12cc1cd-0fd8-41e5-b385-47b1892d9f19",
+    "timestamp": "6/1/2023 09:53:35",
+    "title": "Monopatin",
+    "description": "Electrico 20km",
+    "code": "765",
+    "price": "12500",
+    "stock": "9",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/vehicles-and-travel-1/32/Vehicles_and_Transport_scooter_transport-512.png"
+  }
+]

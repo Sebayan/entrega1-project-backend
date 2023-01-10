@@ -1,0 +1,36 @@
+{
+  "id": "18629647-8834-4c1f-ba51-24091dc85951",
+  "timestamp": "10/1/2023 15:39:02",
+  "products": [
+    {
+      "id": "d46b16b9-c6ae-4a64-a2eb-51c3d7b93ce8",
+      "timestamp": "6/1/2023 09:53:35",
+      "title": "Lavarropa",
+      "description": "Enxuta con secado",
+      "code": "634",
+      "price": "9500",
+      "stock": "24",
+      "thumbnail": "https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-16-512.png"
+    },
+    {
+      "id": "5f8a3149-0117-4ad1-9a85-fb16684ff659",
+      "timestamp": "6/1/2023 09:53:35",
+      "title": "Router wifi",
+      "description": "ZTE 30mts",
+      "code": "111",
+      "price": "4500",
+      "stock": "45",
+      "thumbnail": "https://cdn1.iconfinder.com/data/icons/bootstrap-fill-vol-2/16/router-fill-512.png"
+    },
+    {
+      "id": "86e354af-1a45-483b-8cea-8cbae528f5c6",
+      "timestamp": "6/1/2023 09:53:35",
+      "title": "Calculadora",
+      "description": "Calculadora a pilas",
+      "code": "334",
+      "price": "345",
+      "stock": "22",
+      "thumbnail": "https://cdn4.iconfinder.com/data/icons/business-1221/24/Calculator-512.png"
+    }
+  ]
+}

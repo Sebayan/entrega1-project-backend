@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="publicport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final 1er emtrega</title>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/templates.js"></script>
+  <script defer src="js/main.js"></script>
+  
+</head>
+
+<body>
+  <ul class="nav justify-content-center container">
+    <li class="nav-item">
+      <a class="nav-link" href="/">INICIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href=#tablaProd >PRODUCTOS</a>
+    </li>
+  </ul>
+
+  <div id="soloAdministrador"></div>
+
+   <br>
+   <br id="tablaProd">
+   
+   <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      PRODUCTOS
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row d-flex justify-content-center" id="productos"></div>
+  </div>
+  
+  <br>
+ 
+  <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      CARRITOS
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row d-flex justify-content-center" id="carritos"></div>
+  </div>
+
+
+  <br>
+ 
+  <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      OPERACIONES CON CARRITOS
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div id= "" class="row d-flex justify-content-center">
+      <div class="col">
+        <button id="newCartBtn" type="" class="btn btn-primary">Nuevo carrito</button> 
+      </div>
+    </div>
+    
+    <br>
+
+    <div id= "" class="row d-flex justify-content-center">
+      <div class="col">      
+        <input type="text" class="form-control" id="idProdNew" aria-describedby="pHelp3">
+        <div id="pHelp3" class="form-text">ID producto a agregar</div>
+      </div>
+      <div class="col">      
+        <input type="text" class="form-control" id="idProdCartNew" aria-describedby="pHelp4">
+        <div id="pHelp4" class="form-text">ID del carrito</div>
+      </div>
+      <div class="col">
+        <button id="newItemCartBtn" type="" class="btn btn-primary">Agregar producto</button> 
+      </div>
+    </div>
+
+    <br>
+
+    <div id= "" class="row d-flex justify-content-center">
+      <div class="col">      
+        <input type="text" class="form-control" id="idCartList" aria-describedby="pHelp4">
+        <div id="pHelp4" class="form-text">ID del carrito</div>
+      </div>
+      <div class="col">
+        <button id="listItemCartBtn" type="" class="btn btn-primary">Ver productos del carrito</button> 
+      </div>
+    </div>
+    <div id="itemCartList" class="row"></div>
+
+    <br>
+
+    <div id= "" class="row d-flex justify-content-center ">
+      <div class="col">      
+        <input type="text" class="form-control" id="idCartDel" aria-describedby="pHelp">
+        <div id="pHelp" class="form-text">ID de carrito a borrar</div>
+      </div>
+      <div class="col">
+        <button id="deleteCartBtn" type="" class="btn btn-primary">Borrar carrito</button> 
+      </div>
+    </div>
+    
+    <br>
+
+    <div id= "" class="row d-flex justify-content-center ">
+      <div class="col">      
+        <input type="text" class="form-control" id="idProdDel" aria-describedby="pHelp1">
+        <div id="pHelp1" class="form-text">ID producto a borrar</div>
+      </div>
+      <div class="col">      
+        <input type="text" class="form-control" id="idProdCartDel" aria-describedby="pHelp2">
+        <div id="pHelp2" class="form-text">ID del carrito</div>
+      </div>
+      <div class="col">
+        <button id="deleteItemCartBtn" type="" class="btn btn-primary">Borrar producto</button> 
+      </div>
+    </div>
+
+
+
+  </div>
+  
+
+</body>
+</html>
